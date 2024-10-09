@@ -27,7 +27,7 @@ The **complementary filter** effectively **fuses the accelerometer and gyroscope
 - **High-pass filtering** is applied to gyroscope data for short-term, high-frequency motion, compensating for drift.
 
 <p align="center"> 
-  <img src="data-filtering-scheme.png" width="450">
+  <img src="data-filtering-scheme.png" width="500">
 </p>
 
 This sensor fusion results in accurate, stable orientation estimates, essential for real-time control systems.
