@@ -26,6 +26,10 @@ The **complementary filter** effectively **fuses the accelerometer and gyroscope
 - **Low-pass filtering** is applied to the accelerometer data for reliable long-term orientation estimates.
 - **High-pass filtering** is applied to gyroscope data for short-term, high-frequency motion, compensating for drift.
 
+<p align="center"> 
+  <img src="data-filtering-scheme.png" width="450">
+</p>
+
 This sensor fusion results in accurate, stable orientation estimates, essential for real-time control systems.
 
 ### 2. **Advantages for Control Systems Engineering** ⚙️
@@ -60,7 +64,7 @@ The combination of **Arduino** with the **MPU6050.h** library makes this setup i
 
 ## Conclusion 🏁
 
-This project demonstrates how to use the **MPU6050 IMU** with the **MPU6050.h** library on Arduino for real-time data acquisition, filtered with a **complementary filter**. The complementary filter combines the accelerometer's long-term stability with the gyroscope's fast response, ensuring accurate and reliable orientation estimates. For control systems engineers, this approach provides a **computationally efficient**, **real-time capable**, and **robust solution** for state estimation in dynamic environments!
+This project demonstrates how to use the **MPU6050 IMU** with the **MPU6050.h** library on Arduino for real-time data acquisition, filtered with a **complementary filter**. The complementary filter combines the accelerometer's long-term stability with the gyroscope's fast response, ensuring accurate and reliable orientation estimates. For control systems engineers, this approach provides a **computationally efficient**, **real-time capable**, and **robust solution** for state estimation in dynamic environments. Check out the results on the report and feel free to use the code!
 
 ---
 
